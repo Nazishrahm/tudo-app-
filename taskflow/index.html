@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUDO APP</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-100 flex  items-center justify-center ">
+    <div class=" bg-white p-6 rounded-xl shadow-md w-full max-w-md ">
+        <h2 class="text-3xl font-bold text-center mb-4">
+            TaskFlow
+        </h2>
+        
+            <div class="mb-4" flex gap-2>
+                <input id="taskinput"
+                 type="text"
+                  placeholder="Add a new task"
+                  class="flex-1 border rounded px-3 py-2  ">
+                <button id="addbtn"
+                class="bg-blue-600 text-white px-4 py-2 rounded"> save </button>
+            </div>
+            <ul id="tasklist" class="space-y-2">
+               
+            </ul>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
